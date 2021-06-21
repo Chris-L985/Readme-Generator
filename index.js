@@ -36,9 +36,31 @@ inquirer
       },
     },
     {
+      //Project description
+      type: 'input',
+      name: 'description',
+      message: 'Describe your project.',
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("Please provide a description of your project.");
+          return false;
+        }
+      }
+    },
+    {
+      // project usage
       type: 'input',
       name: 'usage',
       message: 'Provide instructions and exammples for use.'
+    }, 
+    {
+      // built with section
+      type: 'checkbox',
+      name: 'stack',
+      message: 'What are the languages used on your application?',
+      choices: []
     },
     {
       type: 'input',
@@ -46,9 +68,10 @@ inquirer
       message: 'List your collaborators.'
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
-      message: 'What are the steps required to install your project?'
+      message: 'Select the following licenses needed for your project',
+      choices: ["GNU GPLv3" , "ISC" , "Apache" , "No licence required"],
     },
     {
       type: 'input',
@@ -57,18 +80,13 @@ inquirer
     },
     {
       type: 'input',
-      name: 'features',
-      message: 'What are the features of your application?'
-    },
-    {
-      type: 'input',
       name: 'contributing',
-      message: 'What are the steps required to install your project?'
+      message: 'Provide a listing of contributions as necessary.'
     },
     {
       type: 'input',
       name: 'tests',
-      message: 'What are the steps required to install your project?'
+      message: 'What are some steps to test your application?'
     },
 ]);
 
