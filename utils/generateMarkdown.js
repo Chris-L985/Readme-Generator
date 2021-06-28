@@ -44,6 +44,9 @@ function renderLicenseSection(license) {
 
   } else if (license === "Apache") {
     licenseSec = "The following application is covered under the Apache Public License.";
+    
+  } else if (license === "No license required") {
+    licenseSec = "No license is required for this application."
   }
 
   return licenseSec;

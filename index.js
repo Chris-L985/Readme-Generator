@@ -67,7 +67,7 @@ const promptUser = () => {
         // project usage
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and exammples for use.',
+        message: 'Provide instructions and examples for use.',
         validate: (usageInput) => {
           if (usageInput) {
             return true;
@@ -95,7 +95,7 @@ const promptUser = () => {
         type: 'list',
         name: 'license',
         message: 'Select the following licenses needed for your project',
-        choices: ["GNU GPLv3" , "ISC" , "Apache" , "No licence required"],
+        choices: ["GNU GPLv3" , "ISC" , "Apache" , "No license required"],
       },
       {
         // Input Installation
