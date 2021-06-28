@@ -14,7 +14,8 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Usage
-  N/A
+  Screencastify Tutorial Link:
+  https://drive.google.com/file/d/1rflhoUd8JpBo6KtN4HJWx8TnYvJgeY4m/view
   ## Languages
   ES6,Node
   ## Contributions
@@ -28,4 +29,4 @@
   
   ## Questions
   Any questions can be sent to me at [thelopezdispenser@gmail.com](mailto"thelopezdispenser@gmail.com)
-  or click [here](https://github.com/ChrisL-985/) take a look at my other projects on GitHub.
+  or click [here](https://github.com/Chris-L985/) take a look at my other projects on GitHub.
