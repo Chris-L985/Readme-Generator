@@ -14,7 +14,8 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Usage
-  N/A
+  Screencastify Tutorial Link:
+  https://drive.google.com/file/d/1rflhoUd8JpBo6KtN4HJWx8TnYvJgeY4m/view
   ## Languages
   ES6,Node
   ## Contributions
