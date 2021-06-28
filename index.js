@@ -22,6 +22,20 @@ const promptUser = () => {
         },
       },
       {
+        //Email for questions
+        type: 'input',
+        name: 'email',
+        message: 'Enter your current email address.',
+        validate: (emailInput) => {
+          if (emailInput) {
+            return true;
+          } else {
+            console.log("Enter your email address");
+            return false;
+          }
+        },
+      },
+      {
         //Project title
         type: 'input',
         name: 'title',
@@ -66,14 +80,14 @@ const promptUser = () => {
       {
         // built with section
         type: 'checkbox',
-        name: 'stack',
+        name: 'languages',
         message: 'What are the languages used on your application? (Check all that apply)',
         choices: ['HTML', 'CSS', 'JavaScript', 'SQL' , 'ES6' , 'Bootstrap' , 'Node']
       },
       {
         // Input Contributions
         type: 'input',
-        name: 'credits',
+        name: 'contributions',
         message: 'List your collaborators.'
       },
       {

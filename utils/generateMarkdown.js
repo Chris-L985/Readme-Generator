@@ -73,14 +73,15 @@ function generateMarkdown(data) {
   ## Contributions
   ${data.contributions}
   ## License
-  ${data.license}
+  ${renderLicenseSection(data.license)}
   ## Installation
   ${data.installation}
   ## Tests
   ${data.tests}
   
   ## Questions
-  Any questions can be sent to me 
+  Any questions can be sent to me at [${data.email}](mailto"${data.email})
+  or click [here](https://github.com/${data.username}/) take a look at my other projects on GitHub.
 `;
 }
 
